@@ -1,7 +1,7 @@
 from aiogram import Bot, Dispatcher,Router
 from config.token import TOKEN
 import sqlite3
-con = sqlite3.connect('data.db')
+con = sqlite3.connect('data/data.db')
 cursor = con.cursor()
 
 router = Router()
